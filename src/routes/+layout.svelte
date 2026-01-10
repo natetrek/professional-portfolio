@@ -1,5 +1,65 @@
-<script>
-  import '../app.css';
+<script lang="ts">
+    // import favicon from "$lib/assets/favicon.svg";
+
+    let { children } = $props();
+    import "../app.css";
 </script>
 
-<slot />
+<svelte:head>
+    <link rel="icon" href="/favicon.png" />
+    <link rel="image_src" href="http://natewilliams.dev/favicon.png" />
+    <title>Nate Williams | Startup and Product Management Portfolio</title>
+    <meta
+        name="description"
+        content="Web software entrepreneur, developer and product manager who loves innovative technology, large-scale art, and backcountry treks"
+    />
+    <link rel="canonical" href="https://natewilliams.dev" />
+
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://natewilliams.dev/" />
+    <meta
+        property="og:title"
+        content="Nate Williams | Startup and Product Management Portfolio"
+    />
+    <meta
+        property="og:description"
+        content="Web software entrepreneur, developer and product manager who loves innovative technology, large-scale art, and backcountry treks"
+    />
+    <meta
+        property="og:image"
+        content="http://natewilliams.dev/static/trekking-in-mountains.png"
+    />
+
+    <meta
+        itemprop="name"
+        content="Nate Williams | Startup and Product Management Portfolio"
+    />
+    <meta itemprop="url" content="https://natewilliams.dev/" />
+    <meta
+        itemprop="description"
+        content="Web software entrepreneur, developer and product manager who loves innovative technology, large-scale art, and backcountry treks"
+    />
+    <meta
+        itemprop="thumbnailUrl"
+        content="http://natewilliams.dev/favicon.png"
+    />
+
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://natewilliams.dev/" />
+    <meta
+        property="twitter:title"
+        content="Nate Williams | Startup and Product Management Portfolio"
+    />
+    <meta
+        property="twitter:description"
+        content="Web software entrepreneur, developer and product manager who loves innovative technology, large-scale art, and backcountry treks"
+    />
+    <meta
+        property="twitter:image"
+        content="http://natewilliams.dev/static/trekking-in-mountains.png"
+    />
+
+    <meta name="robots" content="index, follow" />
+</svelte:head>
+
+{@render children()}
