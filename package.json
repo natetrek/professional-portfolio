@@ -1,29 +1,28 @@
 {
-  "name": "personal-site",
-  "private": true,
-  "version": "0.1.0",
-  "scripts": {
-    "dev": "vite",
-    "build": "vite build",
-    "preview": "vite preview",
-    "lint": "eslint --ext .js,.vue --ignore-path .gitignore --fix src",
-    "format": "prettier .  --write"
-  },
-  "dependencies": {
-    "vite-plugin-md": "^0.11.8",
-    "vue": "^3.2.25",
-    "vue-router": "^4.0.12"
-  },
-  "devDependencies": {
-    "@tailwindcss/typography": "^0.5.2",
-    "@vitejs/plugin-vue": "^2.2.0",
-    "autoprefixer": "^10.4.2",
-    "eslint": "^8.9.0",
-    "eslint-config-prettier": "^8.4.0",
-    "eslint-plugin-vue": "^8.5.0",
-    "postcss": "^8.4.6",
-    "prettier": "2.5.1",
-    "tailwindcss": "^3.0.23",
-    "vite": "^2.8.0"
-  }
+	"name": "professional-portfolio",
+	"private": true,
+	"version": "0.0.1",
+	"type": "module",
+	"scripts": {
+		"dev": "vite dev",
+		"build": "vite build",
+		"preview": "vite preview",
+		"prepare": "svelte-kit sync || echo ''",
+		"check": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json",
+		"check:watch": "svelte-kit sync && svelte-check --tsconfig ./tsconfig.json --watch"
+	},
+	"devDependencies": {
+		"@sveltejs/adapter-auto": "^7.0.0",
+		"@sveltejs/kit": "^2.47.1",
+		"@sveltejs/vite-plugin-svelte": "^6.2.1",
+		"svelte": "^5.41.0",
+		"svelte-check": "^4.3.3",
+		"typescript": "^5.9.3",
+		"vite": "^7.1.10"
+	},
+	"dependencies": {
+		"@sveltejs/adapter-vercel": "^6.1.1",
+		"@tailwindcss/vite": "^4.1.17",
+		"tailwindcss": "^4.1.17"
+	}
 }
