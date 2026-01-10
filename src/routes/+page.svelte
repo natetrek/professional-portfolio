@@ -5,7 +5,7 @@
     import ImageCarousel from "$lib/components/ImageCarousel.svelte";
     import PageHeader from "$lib/components/PageHeader.svelte";
     import PageFooter from "$lib/components/PageFooter.svelte";
-    import carouselData from "../data/home-carousel-data.json";
+    import carouselData from "$lib/data/home-carousel-data.json";
 
     let isMobile = $state(false);
 

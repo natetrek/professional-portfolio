@@ -1,0 +1,20 @@
+{
+    "technologies": [
+        { "id":  1, "width": 185, "height": 185, "name": "Vue 3",             "img": "vue-logo.svg" },
+        { "id":  2, "width": 185, "height": 185, "name": "Vite",              "img": "vite-logo.svg" },
+        { "id":  3, "width": 185, "height": 185, "name": "Tailwind",          "img": "tailwindcss-logo.svg" },
+        { "id":  4, "width": 185, "height": 185, "name": "CSS3",             "img": "css3-logo.svg" },
+        { "id":  5, "width": 185, "height": 185, "name": "JavaScript",        "img": "javascript-logo.svg" },
+        { "id":  6, "width": 185, "height": 185, "name": "TypeScript",        "img": "typescript-logo.svg" },
+        { "id":  7, "width": 185, "height": 185, "name": "NodeJS",            "img": "nodejs-logo.svg" },
+        { "id":  8, "width": 185, "height": 185, "name": "Python",            "img": "python-logo.svg" },
+        { "id":  9, "width": 185, "height": 185, "name": "Git",               "img": "git-logo.svg" },
+        { "id": 10, "width": 185, "height": 185, "name": "SQL",               "img": "sql-logo.svg" },
+        { "id": 11, "width": 185, "height": 185, "name": "Postgres",          "img": "postgresql-logo.svg" },
+        { "id": 12, "width": 185, "height": 185, "name": "Jamstack",          "img": "jamstack-logo.svg" },
+        { "id": 13, "width": 185, "height": 185, "name": "Adobe Photoshop",   "img": "adobe-photoshop-logo.svg" },
+        { "id": 14, "width": 185, "height": 185, "name": "Adobe Illustrator", "img": "adobe-illustrator-logo.svg" },
+        { "id": 15, "width": 185, "height": 185, "name": "Affinity Designer", "img": "affinity-designer-logo.svg" },
+        { "id": 16, "width": 185, "height": 185, "name": "Figma",             "img": "figma-logo.svg" }
+    ]
+}

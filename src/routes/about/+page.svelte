@@ -5,7 +5,7 @@
     import PageHeader from "$lib/components/PageHeader.svelte";
     import PageFooter from "$lib/components/PageFooter.svelte";
     import { goto } from "$app/navigation";
-    import technologiesData from "../../data/about-technologies-data.json";
+    import technologiesData from "$lib/data/about-technologies-data.json";
 
     let technologies = technologiesData.technologies;
     let isBelowHero = $state(false);
