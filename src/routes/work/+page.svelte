@@ -202,7 +202,7 @@
                 new at the time, from serverless, API-driven data feeds to new
                 features in Excel. This provided some memorable moments:
             </div>
-            <ul class="space-y-4 pl-8">
+            <ul class="flex flex-col pl-8">
                 <li>
                     Demoing an early version with serverless data feeds and a
                     CLI at <a
@@ -330,7 +330,7 @@
                 long-term relationships with our customers (5+ years).
                 Additional things I'm proud of include:
             </div>
-            <ul class="space-y-4 pl-8">
+            <ul class="flex flex-col pl-8">
                 <li>
                     Deploying the solution at 40+ enterprise customers,
                     including
@@ -455,7 +455,7 @@
                 data preparation before that became its own product category.
                 Some highlights include:
             </div>
-            <ul class="space-y-4 pl-8">
+            <ul class="flex flex-col pl-8">
                 <li>
                     <a
                         href="https://www.idg.co.uk/news/winners-of-product-excellence-awards-announced-at-linuxworld-conference-idg-world-expo-and-linuxworld-magazine-reward-product-and-service-innovation/"
