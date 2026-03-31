@@ -99,7 +99,11 @@
         <div class="absolute">
             <!-- Carousel image -->
             <div>
-                <a href={content[contentIdx].link} target="_blank">
+                <a
+                    href={content[contentIdx].link}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
                     <img
                         id="carousel-img-id"
                         class="carousel-img shadow-xl"
@@ -121,11 +125,15 @@
         </div>
         <!-- Carousel prev & next buttons-->
         <div
-            id="carousel-nav-btns"
-            class="absolute left-0 top-1/2 transform -translate-y-1/2"
+            class="carousel-nav-btns absolute left-0 top-1/2 transform -translate-y-1/2"
         >
             <!-- Prev button-->
-            <button onclick={btnPrev} class="carousel-nav">
+            <button
+                type="button"
+                onclick={btnPrev}
+                class="carousel-nav"
+                aria-label="Previous slide"
+            >
                 <svg
                     class="fill-white h-16 w-12"
                     xmlns="http://www.w3.org/2000/svg"
@@ -137,12 +145,15 @@
             </button>
         </div>
         <div
-            id="carousel-nav-btns"
-            onclick={btnNext}
-            class="absolute right-0 top-1/2 transform -translate-y-1/2"
+            class="carousel-nav-btns absolute right-0 top-1/2 transform -translate-y-1/2"
         >
             <!-- Next button-->
-            <button class="carousel-nav">
+            <button
+                type="button"
+                onclick={btnNext}
+                class="carousel-nav"
+                aria-label="Next slide"
+            >
                 <svg
                     class="fill-white h-16 w-12"
                     xmlns="http://www.w3.org/2000/svg"
@@ -161,9 +172,11 @@
             {#each Array(4) as _, idx}
                 {#if imgIndex === idx + 1}
                     <button
+                        type="button"
                         onclick={() => btnUpdateCarousel(idx)}
-                        value={contentIdx}
                         class="px-1.5"
+                        aria-label="Slide {idx + 1} of 4, current slide"
+                        aria-current="true"
                     >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -179,9 +192,10 @@
                     </button>
                 {:else}
                     <button
+                        type="button"
                         onclick={() => btnUpdateCarousel(idx)}
-                        value={contentIdx}
                         class="px-1.5"
+                        aria-label="Go to slide {idx + 1} of 4"
                     >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
@@ -227,12 +241,12 @@
 {/if}
 
 <style>
-    .carousel-image-container:hover #carousel-nav-btns {
+    .carousel-image-container:hover .carousel-nav-btns {
         display: flex;
     }
 
     /* only show the carousel buttons on hover */
-    .carousel-image-container #carousel-nav-btns {
+    .carousel-image-container .carousel-nav-btns {
         display: none;
     }
 

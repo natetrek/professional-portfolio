@@ -55,14 +55,13 @@
                     <div
                         class="text-3xl xl:text-4xl font-bold uppercase text-textblue space-y-4 pb-10"
                     >
-                        <p>Startup founder</p>
+                        <p>Data Engineer</p>
                         <p>Developer &</p>
-                        <p>Designer</p>
+                        <p>Startup founder</p>
                     </div>
                     <div class="prose pb-10">
-                        Web software entrepreneur who loves innovative tech,
-                        large-scale art and backcountry treks. Formerly
-                        Co-founder & CEO at <a
+                        Data engineer who loves innovative tech, large-scale art
+                        and software startups. Formerly Co-founder & CEO at <a
                             href="https://flexio.natewilliams.dev"
                             target="_blank">Flex.io</a
                         >
@@ -102,14 +101,13 @@
                 <div
                     class="text-3xl sm:text-4xl font-bold uppercase text-textblue space-y-4 pt-20 pb-10"
                 >
-                    <p>Startup founder</p>
+                    <p>Data Engineer</p>
                     <p>Developer &</p>
-                    <p>Designer</p>
+                    <p>Startup founder</p>
                 </div>
                 <div class="prose pb-8">
-                    Web software entrepreneur who loves innovative tech,
-                    large-scale art and backcountry treks. Formerly Co-founder &
-                    CEO at <a
+                    Data engineer who loves innovative tech, large-scale art and
+                    software startups. Formerly Co-founder & CEO at <a
                         href="https://flexio.natewilliams.dev"
                         target="_blank">Flex.io</a
                     >
@@ -119,8 +117,8 @@
                         target="_blank">Gold Prairie</a
                     >. Passionate about community, conservation, and code.
                 </div>
-                <div class="flex justify-center">
-                    <SocialMediaLinks isHome={true} class="pb-10" />
+                <div class="flex justify-center pb-10">
+                    <SocialMediaLinks isHome={true} />
                 </div>
                 <div class="flex justify-center">
                     <button
@@ -137,10 +135,8 @@
                 bind:isMobile
             />
         </div>
-        <div class="h-16">
-            <PageFooter
-                class="flex justify-center items-center h-full mx-auto"
-            />
+        <div class="h-16 flex justify-center items-center py-8 h-full mx-auto">
+            <PageFooter />
         </div>
     </div>
 {/if}

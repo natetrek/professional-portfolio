@@ -51,7 +51,7 @@
             if (window.location.hash) {
                 setTimeout(() => {
                     const element = document.querySelector(
-                        window.location.hash
+                        window.location.hash,
                     );
                     if (element) {
                         const yOffset = -80;
@@ -92,8 +92,9 @@
             class="w-full sm:w-3/5 text-center sm:text-left self-center space-y-8 sm:pr-8"
         >
             <div class="text-3xl xl:text-4xl font-bold uppercase">About me</div>
-            <div class="text-2xl leading-10">
-                Some things I like to do when I'm not trekking in the Sierras
+            <div class="text-2xl leading-10 pr-10">
+                Professional highlights and some of the technologies I enjoy
+                using
             </div>
         </div>
         <div class="mt-8 sm:mt-0">
@@ -111,8 +112,8 @@
 <div class="container-inner flex flex-col md:flex-row mx-2 md:mx-auto py-12">
     <div class="prose max-w-none space-y-4 my-4">
         <div>
-            Hi, I'm Nate. Thanks for stopping by. I'm a web software
-            entrepreneur, developer and UI/UX designer.
+            Hi, I'm Nate. Thanks for stopping by. I'm a data engineer, developer
+            and web software entrepreneur.
         </div>
         <div>
             I've co-founded three enterprise software startups where I led
@@ -143,44 +144,14 @@
 >
     <div class="prose max-w-none space-y-4 my-4">
         <div class="text-2xl md:text-3xl text-center pb-4">
-            Design & development
+            Data, design & development
         </div>
         <div>
-            I love web design and writing code, both professionally and for
-            personal projects. I believe good UI/UX design and good code go
-            hand-in-hand. Crafting <a
-                href="https://uxmastery.com/"
-                target="_blank">thoughtful designs</a
-            >
-            up front often uncovers key issues that can save weeks of development
-            time. In turn,
-            <a href="https://www.refactoringui.com/" target="_blank"
-                >well-crafted code</a
-            > creates elegant interfaces.
-        </div>
-    </div>
-</div>
-
-<!-- About this site -->
-<div
-    class="container-inner flex flex-col md:flex-row mx-2 md:mx-auto py-12 border-t border-gray-300"
->
-    <div class="prose max-w-none space-y-4 my-4">
-        <div class="text-2xl md:text-3xl text-center pb-4">About this site</div>
-        <div>
-            I'm a big fan of the <a href="https://jamstack.org/" target="_blank"
-                >Jamstack</a
-            >, particularly for getting a new projects off the ground quickly. I
-            built this site using
-            <a href="https://vitejs.dev/" target="_blank">Vite</a>,
-            <a href="https://svelte.dev/" target="_blank">Svelte 5</a>, and
-            <a href="https://tailwindcss.com/" target="_blank">Tailwind CSS</a>.
-            I used
-            <a href="https://www.figma.com/" target="_blank">Figma</a> and
-            <a href="https://affinity.serif.com/en-us/" target="_blank"
-                >Affinity Designer</a
-            > for the design. Below are some other technologies and tools I like
-            to use.
+            I love the design process and writing code, both professionally and
+            for personal projects. I believe good design, good data
+            infrastructure and good code go hand-in-hand. Crafting thoughtful
+            designs and well-architected data infrastructure often uncovers key
+            issues that can save weeks of development time.
         </div>
     </div>
 </div>

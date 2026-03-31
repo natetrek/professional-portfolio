@@ -1,15 +1,7 @@
-# Welcome to my startup portfolio
+# Welcome to my professional portfolio
 
-Hi, I'm Nate. Thanks for stopping by. I'm a web software entrepreneur, developer and UI/UX designer.
-I've co-founded three enterprise software startups. This startup portfolio website is here to tell the story.
+Hi, I'm Nate. Thanks for stopping by. I'm a data engineer, developer and web software entrepreneur.
+I've co-founded three enterprise software startups. This portfolio website is here to tell the story.
 
 You can find the live site here: [https://natewilliams.dev/](https://natewilliams.dev/).
-
-## About this site
-
-I built this site with Vue 3 and Tailwind CSS, with Vite as the build tool. You can find out more about these popular web development technologies here:
-
-- [Vue 3](https://vuejs.org/)
-- [Tailwind CSS](https://tailwindcss.com/)
-- [Vite](https://vitejs.dev/)
 

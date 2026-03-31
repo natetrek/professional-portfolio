@@ -44,7 +44,12 @@
         </div>
         <!-- burger -->
         <div class={!isOpen ? "absolute right-0 top-0 p-8" : "hidden"}>
-            <button onclick={toggleBurger} class="flex items-center">
+            <button
+                type="button"
+                onclick={toggleBurger}
+                class="flex items-center"
+                aria-label="Open navigation menu"
+            >
                 <svg
                     class="h-6 w-6 fill-heroblue"
                     viewBox="0 0 20 20"
@@ -64,7 +69,11 @@
         >
             <!-- close (x) -->
             <div class="flex justify-end lg:pb-2 pr-7">
-                <button onclick={toggleBurger}>
+                <button
+                    type="button"
+                    onclick={toggleBurger}
+                    aria-label="Close navigation menu"
+                >
                     <svg
                         class="h-7 w-7 fill-white"
                         viewBox="0 0 24 24"
