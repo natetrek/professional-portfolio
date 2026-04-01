@@ -2,8 +2,8 @@
     "technologies": [
         { "id":  1, "width": 185, "height": 185, "name": "SQL Server",          "img": "sql-server-logo.svg" },
         { "id":  2, "width": 185, "height": 185, "name": "Postgres",            "img": "postgresql-logo.svg" },
-        { "id":  3, "width": 185, "height": 185, "name": "Amazon Web Services", "img": "aws-logo.svg" },
-        { "id":  4, "width": 185, "height": 185, "name": "Supabase",            "img": "supabase-logo.svg" },
+        { "id":  3, "width": 185, "height": 185, "name": "Supabase",            "img": "supabase-logo.svg" },
+        { "id":  4, "width": 185, "height": 185, "name": "Azure",               "img": "azure-logo.svg" },
         { "id":  5, "width": 185, "height": 185, "name": "Svelte",              "img": "svelte-logo.svg" },
         { "id":  6, "width": 185, "height": 185, "name": "Vue.js",              "img": "vue-logo.svg" },
         { "id":  7, "width": 185, "height": 185, "name": "SQL",                 "img": "sql-logo.svg" },
